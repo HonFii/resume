@@ -6,13 +6,18 @@
   <link rel="stylesheet" href="//at.alicdn.com/t/font_1838957_xtylxwlui4g.css">
   <link rel="stylesheet" href="assets/style.css">
   <title>{{site.title}}</title>
+  <style type="text/css">
+    .big{  line-height: 200%;}
+  </style>
 </head>
 <body>
   <div class="main-container">
-    <div class="update"><label>更新时间</label> {{site.update}} </div>
+    <div class="update"><label>Updata</label> {{site.update}} </div>
     <div class="items">
-      {% include person.html %}
-      {{ content }}
+      <ul.b>
+        {% include person.html %}
+        {{ content }}
+      </ul.b>
     </div>
   </div>
 </body>

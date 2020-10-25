@@ -18,9 +18,9 @@ body {
   background-color: white;
   font-family: '微软雅黑',Arial, Helvetica, sans-serif;
   font-weight: 200;
-  font-size: 10px;
+  font-size: 13px;
   padding: 30px; /*边框*/
-  color: #777;
+  color: rgb(0, 0, 0);
 }
 
 .main-container .update {
@@ -50,7 +50,7 @@ body {
 h1 {
   font-size: 20px;
   line-height: 30px;
-  border-bottom: 1px solid #888;
+  border-bottom: 1px solid rgb(0, 0, 0);
 }
 h1 > i.iconfont {
   font-size: 20px;
@@ -59,8 +59,8 @@ ul,ol {
   padding-left: 20px;
 }
 ul,ol > li {
-  list-style-type: lower-greek;
-  line-height: 20px;
+  list-style-type: disc;
+  line-height: 25px;
   font-size: 13px;
 }
 
@@ -74,13 +74,13 @@ article {
 
 h2 {
   font-size: 20px;
-  line-height: 20px;
+  line-height: 30px;
   padding-top: 20px;
 }
 
 p {
   padding: 10px 0 10px 0;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 32px;
 }
 
